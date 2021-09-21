@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Cormorant+Garamond:ital@1&display=swap');
+.expense-list {
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(49, 47, 47, 0.5);
+}
+.expense-list__date {
+  background-image: linear-gradient(45deg, #33ff33, #1768e0);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  width: 12% !important;
+}
+.expense-list__heading {
+  width: 70% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e1e9e;
+  font-family: 'Carattere', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+.expense-list__prize-btn {
+  /* box-shadow: 0 0 5px 5px rgba(177, 174, 174, 0.8); */
+  border: none !important;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 150px !important;
+}
