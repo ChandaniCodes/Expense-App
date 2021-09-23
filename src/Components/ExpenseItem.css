@@ -7,27 +7,59 @@
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(49, 47, 47, 0.5);
 }
-.expense-list__date {
+.expense-list__date_control {
   background-image: linear-gradient(45deg, #33ff33, #1768e0);
-  border: 1px solid #fff;
   border-radius: 20px;
   color: #fff;
-  width: 12% !important;
+  box-shadow: 0 0 10px 5px rgba(207, 200, 200, 0.8);
 }
 .expense-list__heading {
-  width: 70% !important;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #1e1e9e;
   font-family: 'Carattere', cursive;
   font-family: 'Cormorant Garamond', serif;
+}
+.expense-list__heading h3 {
   font-weight: bold;
 }
 .expense-list__prize-btn {
-  /* box-shadow: 0 0 5px 5px rgba(177, 174, 174, 0.8); */
+  box-shadow: 0 0 10px 5px rgba(207, 200, 200, 0.8);
   border: none !important;
   padding-right: 20px;
+  font-size: 14px;
   padding-left: 20px;
-  width: 150px !important;
+  width: 120px !important;
 }
+.expense-list__year,
+.expense-list__month {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .expense-list__date_control {
+    width: 90px;
+  }
+  .expense-list__date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .expense-list__heading {
+    padding-top: 20px !important;
+  }
+}
+/* @media only screen and (min-width: 768px) {
+  .expense-list__date_control {
+    width: 90px;
+  }
+  .expense-list__date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .expense-list__heading {
+    padding-top: 20px !important;
+  }
+} */
